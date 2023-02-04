@@ -1,0 +1,509 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400;1,500&family=Rosario:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap');
+/*font-family: 'DM Sans', sans-serif;
+font-family: 'Rosario', sans-serif;*/
+
+:root{
+/*====================font-famaly==================*/
+    --ff-dmsans: 'DM Sans', sans-serif;
+    --ff-Rosario: 'Rosario', sans-serif;
+    
+
+
+/*====================color==================*/
+    --color-primary: #245852;
+
+    --color-secondary: #01996D;
+}
+
+/*====================default style==================*/
+html, body{
+    
+   
+    padding-top: 0;
+    margin: 0;
+}
+
+
+.header{
+    width: 100%;
+    height: 85px;
+   
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.header_img{
+    width: 100px;
+    height: auto;  
+}
+
+.header_img img{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+.menuBar ul li a{
+    width: 130px;
+    height: 24px;
+    display: flex;
+    text-decoration: none;
+}
+
+.link_menu{
+    position: absolute;
+    top: 15px;
+    padding-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: #292929;
+    list-style: none;
+}
+
+.link_menu ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link_menu a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 70px;
+}
+
+a:hover {
+    color: #2435ce; /* Цвет ссылки при наведении */ 
+    
+   }
+
+.but{
+    width: 50px;
+    height: 20px;
+    background-color:#01996D;
+    padding-left: 90vw;
+}
+
+.btm_text{
+    position: absolute;
+    right: 190px;
+    width: 170px;
+    height: 30px;
+    top: 35px;
+    font-size: 20px;
+}
+
+.btm {
+    width: 180px;
+    height: 51px;
+    background-color: #01996D;
+    color:black;
+    position: absolute;
+    right: 90px;
+    top: 17px;
+    font-size: 20px;
+}
+
+.btm a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    left: 40px;
+}
+
+a:hover {
+    color: #2435ce; /* Цвет ссылки при наведении */ 
+    
+}
+/************************************************/
+
+.content_one{
+    background: url("images/BG.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
+
+.container{
+    width: 500px;
+    height: 200px;
+    padding-top: 80px;
+    padding-left: 170px;
+    
+
+}
+
+.title{
+    font-size: 30px;
+    color: #01996D;
+}
+
+.text {
+    font-size: 17px;
+    color: #484848;
+}
+
+.btm_main{
+    width: 180px;
+    height: 51px;
+    background-color: #01996D;
+    color: black;
+    position: absolute;
+   
+    font-size: 20px;
+}
+.btm_main a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    left: 32px;
+}
+
+a:hover{
+    color: #2435ce; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+}
+
+.btm_main:hover{
+    color: #2435ce; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+}
+/*****************************************************/
+.pictures_{
+    width: 90%;
+    height: 205vh;
+    background-color: #ffffff;
+    margin-left: 5%;
+   margin-top: 70px;
+   display: inline-block;
+}
+
+.pictures_text1{
+    position: absolute;
+    margin-top: 4.99%;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.pictures_title{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+.pictures_text2{
+    position: absolute;
+    margin-top: 5.5%;
+    padding-left: 48%;
+    font-size: 18px;
+}
+
+
+
+.reg_text1{
+    
+    position: absolute;
+    padding-top: 3%;
+    padding-left: 50px;
+    font-size: 200px;
+    font-weight: 50;
+    color: #01996e28
+   
+}
+
+.reg_text1 p{
+    font-weight: 30px;
+
+}
+
+.reg_text2{
+    
+    position: absolute;
+    padding-top: 27%;
+    padding-left: 170px;
+    font-weight: 0;
+    font-size: 30px;
+    color: #000000
+}
+
+.reg_text3{
+    
+    position: absolute;
+    padding-top: 33%;
+    padding-left: 50px;
+    font-weight: 0;
+    font-size: 20px;
+    color: #000000
+
+}
+.pictures_bg1{
+    position: absolute;
+    padding-top: 45%;
+    margin-left: 45px;
+}
+
+.pictures_bg1 img{
+    width: 320px;
+    height: 422px;
+}
+
+
+/****************************************************************/
+
+
+.reg_text1_c {
+    
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 32%;
+    font-size: 200px;
+    font-weight: 50;
+    color: #01996e28
+    
+}
+
+.reg_text2_c{
+    position: absolute;
+    margin-top: 105vh;
+    margin-left: 39%;
+    font-weight: 0;
+    font-size: 30px;
+    color: #000000
+}
+
+.reg_text3_c {
+    position: absolute;
+    margin-top: 116vh;
+    margin-left: 32%;
+    font-size: 20px;
+}
+
+.pictures_bg1_c {
+    position: absolute;
+    margin-top: 133vh;
+    margin-left: 32%;
+   
+}
+
+.pictures_bg1_c img{
+    width: 320px;
+    height: 422px;
+}
+
+
+/**********************************************************************/
+
+.reg_text_r{
+    position: absolute;
+    padding-left: 47%;
+}
+
+.reg_text1_r {
+    
+    position: absolute;
+    margin-top: 41vh;
+    margin-left: 45%;
+    font-size: 200px;
+    font-weight: 50;
+    color: #01996e28
+    
+}
+
+.reg_text2_r{
+    position: absolute;
+    margin-top: 64vh;
+    margin-left: 61%;
+    font-weight: 0;
+    font-size: 30px;
+    color: #000000
+}
+
+.reg_text3_r {
+    width: 25vw;
+    position: absolute;
+    margin-top: 74vh;
+    margin-left: 32%;
+    font-size: 20px;
+}
+
+.pictures_bg1_r {
+    position: absolute;
+    margin-top: 90vh;
+    margin-left: 32%;
+   
+}
+
+.pictures_bg1_r img{
+    width: 320px;
+    height: 422px;
+    font-weight: 300;
+}
+/******************************************************************/
+
+
+.content_twoo{
+    width: 100%;
+    height: 620px;
+    background-color: var(--color-primary)
+}
+
+.video img{
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 9vw;
+    width: 600px;
+    height: 350px;
+}
+.content_twoo h1{
+    position: absolute;
+    padding-top: 11vw;
+    padding-left: 11vw;
+    color:white;
+    font-size: 45px;
+}
+
+.h1_text{
+    position: absolute;
+    padding-top: 50vh;
+    padding-left: 11vw;
+    font-size: 20px;
+    color:white;
+}
+
+.h1_buttom{
+    position: absolute;
+    padding-top: 60vh;
+    font-size: 20px;
+    padding-left: 11vw;
+   
+   
+
+   
+    
+}
+
+.h1_buttom a{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #01996D;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+/************************************************************/
+
+.content_free{
+
+    width: 100%;
+    height: 120vh;
+    
+}
+
+.c_img{
+    position: absolute;
+    padding-top: 7%;
+    padding-left: 10%;
+}
+
+.c_img2{
+    position: absolute;
+    padding-top: 30%;
+    padding-left: 3.7%;
+}
+
+.vseh{
+    padding-left: 62%;
+    padding-top: 8%;
+}
+
+
+.c_free_text{
+    padding-top: -1%;
+    
+    font-size: 25px;
+}
+
+.c_title{
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.c_title h1{
+    padding-top: -1%;
+    
+}
+
+.c_paragraf{
+    padding-top: 2%;
+    
+    font-size: 25px;
+}
+
+
+.c_btm{
+    position: absolute;
+    padding-top: 10vh;
+    font-size: 20px;
+    padding-left: 0vw;
+}
+    
+
+
+
+.c_btm a{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    background-color: #01996D;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+
+
+   
+   a:hover {
+    color:  #2435ce;; /* Цвет ссылки при наведении */ 
+    text-decoration: none; /* Добавляем подчёркивание */
+   }
+
+/*********************************************/
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: var(--color-primary);
+    margin-top: 10%;
+
+}
+
+.foot_vseh{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.foot_vseh p{
+    color:#ffffff;
+    padding: 10px
+}
+
+
+
+
+
